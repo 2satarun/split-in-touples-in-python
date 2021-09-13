@@ -1,0 +1,7 @@
+A= ("sjdb", "djdh/djdb")
+temp = []
+list = []
+for item in A:
+     temp = item.split('/')
+     list = list+temp
+     temp = []
